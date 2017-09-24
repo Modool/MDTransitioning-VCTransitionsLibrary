@@ -1,0 +1,2 @@
+# MDTransitioning-VCTransitionsLibrary
+MDTransitioning extension for VCTransitionLibrary

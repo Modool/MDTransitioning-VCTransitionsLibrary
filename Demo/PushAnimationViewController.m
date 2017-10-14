@@ -7,7 +7,7 @@
 //
 
 #import <MDTransitioning/MDTransitioning.h>
-#import <VCTransitionsLibrary/CECardsAnimationController.h>
+#import <VCTransitionsLibrary/CECubeAnimationController.h>
 #import <MDTransitioning_VCTransitionsLibrary/MDTransitioning+VCTransitionsLibrary.h>
 
 #import "PushAnimationViewController.h"
@@ -30,7 +30,9 @@
 
 - (id<MDNavigationAnimatedTransitioning>)animationForNavigationOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromViewController toViewController:(UIViewController *)toViewController;{
 //    if (operation == UINavigationControllerOperationPop) {
-        return [[CECardsAnimationController alloc] initWithNavigationControllerOperation:operation fromViewController:fromViewController toViewController:toViewController];
+//        return [[CEPanAnimationController alloc] initWithNavigationControllerOperation:operation fromViewController:fromViewController toViewController:toViewController];
+    CECubeAnimationController *animation = [[CECubeAnimationController alloc] initWithNavigationControllerOperation:operation fromViewController:fromViewController toViewController:toViewController];
+    return animation;
 //    }
 //    return [super animationForNavigationOperation:operation fromViewController:fromViewController toViewController:toViewController];
 }

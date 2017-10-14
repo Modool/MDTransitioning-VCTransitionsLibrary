@@ -9,6 +9,7 @@
 #import <MDTransitioning/MDTransitioning.h>
 #import <VCTransitionsLibrary/CEHorizontalSwipeInteractionController.h>
 #import <VCTransitionsLibrary/CEVerticalSwipeInteractionController.h>
+
 #import <MDTransitioning_VCTransitionsLibrary/MDTransitioning+VCTransitionsLibrary.h>
 
 #import "PushAnimationWithInteractionViewController.h"
@@ -27,11 +28,11 @@
 }
 
 - (id<MDInteractionController>)requirePopInteractionController{
-//    CEHorizontalSwipeInteractionController *controller =  [CEHorizontalSwipeInteractionController interactionControllerWithViewController:self operation:CEInteractionOperationPop];
-//    controller.popOnRightToLeft = NO;
-//    return controller;
+    CEHorizontalSwipeInteractionController *controller =  [CEHorizontalSwipeInteractionController interactionControllerWithViewController:self operation:CEInteractionOperationPop];
+    controller.popOnRightToLeft = NO;
+    return controller;
     
-    return [CEVerticalSwipeInteractionController interactionControllerWithViewController:self operation:CEInteractionOperationPop];
+//    return [CEVerticalSwipeInteractionController interactionControllerWithViewController:self operation:CEInteractionOperationPop];
 }
 
 @end

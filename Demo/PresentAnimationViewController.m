@@ -24,12 +24,22 @@
     
     self.title = @"Present  Animation";
     self.view.backgroundColor = [UIColor redColor];
+    
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 80, 60)];
+    [button setTitle:@"返回" forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(didClickBack:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [[self view] addSubview:button];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - actions
+
+- (IBAction)didClickBack:(id)sender{
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
+
+#pragma mark - MDPresentionController
 
 - (id<MPresentionAnimatedTransitioning>)animationForPresentionOperation:(MDPresentionAnimatedOperation)operation fromViewController:(UIViewController *)fromViewController toViewController:(UIViewController *)toViewController{
 //        if (operation == MDPresentionAnimatedOperationPresent) {

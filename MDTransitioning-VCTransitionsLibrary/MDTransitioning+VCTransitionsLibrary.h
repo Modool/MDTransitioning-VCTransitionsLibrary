@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char MDTransitioning_VCTransitionsLibraryVersio
 
 // In this header, you should import all the public headers of your framework using statements like #import <MDTransitioning-VCTransitionsLibrary/PublicHeader.h>
 
-
+#import <MDTransitioning_VCTransitionsLibrary/CEReversibleAnimationController+MDTransitioning.h>
+#import <MDTransitioning_VCTransitionsLibrary/CEBaseInteractionController+MDTransitioning.h>

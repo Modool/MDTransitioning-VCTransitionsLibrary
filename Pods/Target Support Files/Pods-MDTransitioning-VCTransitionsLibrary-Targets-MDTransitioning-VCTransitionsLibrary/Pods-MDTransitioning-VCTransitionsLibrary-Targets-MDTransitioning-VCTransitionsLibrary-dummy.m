@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_MDTransitioning_VCTransitionsLibrary_Targets_MDTransitioning_VCTransitionsLibrary : NSObject
+@end
+@implementation PodsDummy_Pods_MDTransitioning_VCTransitionsLibrary_Targets_MDTransitioning_VCTransitionsLibrary
+@end

@@ -1,0 +1,6 @@
+framework module MDTransitioning {
+  umbrella header "MDTransitioning-umbrella.h"
+
+  export *
+  module * { export * }
+}

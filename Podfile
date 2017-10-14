@@ -12,4 +12,7 @@ abstract_target 'MDTransitioning-VCTransitionsLibrary-Targets’ do
 
     target 'MDTransitioning-VCTransitionsLibrary' do
     end
+
+    target 'Demo' do
+    end
 end

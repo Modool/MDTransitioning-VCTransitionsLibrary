@@ -7,24 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08413C7C1F78022800CE1717 /* CEReversibleAnimationController+MDTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 08413C7A1F78022800CE1717 /* CEReversibleAnimationController+MDTransitioning.h */; };
+		080F527A1F926C7C009F2F19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 080F52791F926C7C009F2F19 /* AppDelegate.m */; };
+		080F52851F926C7E009F2F19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080F52841F926C7E009F2F19 /* Assets.xcassets */; };
+		080F52881F926C7F009F2F19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080F52861F926C7F009F2F19 /* LaunchScreen.storyboard */; };
+		080F528B1F926C80009F2F19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 080F528A1F926C80009F2F19 /* main.m */; };
+		080F52AD1F926DFA009F2F19 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 080F52AC1F926DFA009F2F19 /* RootTableViewController.m */; };
+		080F52AE1F926F31009F2F19 /* MDTransitioning_VCTransitionsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0899D5611F77A4C500A4A395 /* MDTransitioning_VCTransitionsLibrary.framework */; };
+		080F52B11F92718B009F2F19 /* CEBaseInteractionController+MDTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 080F52AF1F92718B009F2F19 /* CEBaseInteractionController+MDTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		080F52B21F92718B009F2F19 /* CEBaseInteractionController+MDTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 080F52B01F92718B009F2F19 /* CEBaseInteractionController+MDTransitioning.m */; };
+		080F52B51F9277BE009F2F19 /* PushAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 080F52B41F9277BE009F2F19 /* PushAnimationViewController.m */; };
+		080F52B81F927D1B009F2F19 /* PushAnimationWithInteractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 080F52B71F927D1B009F2F19 /* PushAnimationWithInteractionViewController.m */; };
+		080F52BB1F927FB7009F2F19 /* PresentAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 080F52BA1F927FB7009F2F19 /* PresentAnimationViewController.m */; };
+		080F52BE1F927FC8009F2F19 /* PresentAnimationWithInteractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 080F52BD1F927FC8009F2F19 /* PresentAnimationWithInteractionViewController.m */; };
+		08413C7C1F78022800CE1717 /* CEReversibleAnimationController+MDTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 08413C7A1F78022800CE1717 /* CEReversibleAnimationController+MDTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08413C7D1F78022800CE1717 /* CEReversibleAnimationController+MDTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 08413C7B1F78022800CE1717 /* CEReversibleAnimationController+MDTransitioning.m */; };
-		0899D5661F77A4C500A4A395 /* MDTransitioning-VCTransitionsLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 0899D5641F77A4C500A4A395 /* MDTransitioning-VCTransitionsLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0899D5661F77A4C500A4A395 /* MDTransitioning+VCTransitionsLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 0899D5641F77A4C500A4A395 /* MDTransitioning+VCTransitionsLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32CE10ADB6C3EF80350D9A71 /* Pods_MDTransitioning_VCTransitionsLibrary_Targets_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED65336523A4A07F7DD1F68 /* Pods_MDTransitioning_VCTransitionsLibrary_Targets_Demo.framework */; };
 		E6D9282C1D3882F74C0DD03F /* Pods_MDTransitioning_VCTransitionsLibrary_Targets_MDTransitioning_VCTransitionsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB46B5697DC9D5737B86E462 /* Pods_MDTransitioning_VCTransitionsLibrary_Targets_MDTransitioning_VCTransitionsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		080F52761F926C79009F2F19 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		080F52781F926C7B009F2F19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		080F52791F926C7C009F2F19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		080F52841F926C7E009F2F19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		080F52871F926C7F009F2F19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		080F52891F926C80009F2F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		080F528A1F926C80009F2F19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		080F52AB1F926DFA009F2F19 /* RootTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		080F52AC1F926DFA009F2F19 /* RootTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
+		080F52AF1F92718B009F2F19 /* CEBaseInteractionController+MDTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CEBaseInteractionController+MDTransitioning.h"; sourceTree = "<group>"; };
+		080F52B01F92718B009F2F19 /* CEBaseInteractionController+MDTransitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CEBaseInteractionController+MDTransitioning.m"; sourceTree = "<group>"; };
+		080F52B31F9277BE009F2F19 /* PushAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushAnimationViewController.h; sourceTree = "<group>"; };
+		080F52B41F9277BE009F2F19 /* PushAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushAnimationViewController.m; sourceTree = "<group>"; };
+		080F52B61F927D1B009F2F19 /* PushAnimationWithInteractionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushAnimationWithInteractionViewController.h; sourceTree = "<group>"; };
+		080F52B71F927D1B009F2F19 /* PushAnimationWithInteractionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushAnimationWithInteractionViewController.m; sourceTree = "<group>"; };
+		080F52B91F927FB7009F2F19 /* PresentAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentAnimationViewController.h; sourceTree = "<group>"; };
+		080F52BA1F927FB7009F2F19 /* PresentAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentAnimationViewController.m; sourceTree = "<group>"; };
+		080F52BC1F927FC8009F2F19 /* PresentAnimationWithInteractionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentAnimationWithInteractionViewController.h; sourceTree = "<group>"; };
+		080F52BD1F927FC8009F2F19 /* PresentAnimationWithInteractionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentAnimationWithInteractionViewController.m; sourceTree = "<group>"; };
 		08413C7A1F78022800CE1717 /* CEReversibleAnimationController+MDTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CEReversibleAnimationController+MDTransitioning.h"; sourceTree = "<group>"; };
 		08413C7B1F78022800CE1717 /* CEReversibleAnimationController+MDTransitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CEReversibleAnimationController+MDTransitioning.m"; sourceTree = "<group>"; };
 		0899D5611F77A4C500A4A395 /* MDTransitioning_VCTransitionsLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MDTransitioning_VCTransitionsLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0899D5641F77A4C500A4A395 /* MDTransitioning-VCTransitionsLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MDTransitioning-VCTransitionsLibrary.h"; sourceTree = "<group>"; };
+		0899D5641F77A4C500A4A395 /* MDTransitioning+VCTransitionsLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MDTransitioning+VCTransitionsLibrary.h"; sourceTree = "<group>"; };
 		0899D5651F77A4C500A4A395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ED65336523A4A07F7DD1F68 /* Pods_MDTransitioning_VCTransitionsLibrary_Targets_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDTransitioning_VCTransitionsLibrary_Targets_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70BDE525EBD6093483E616D7 /* Pods-MDTransitioning-VCTransitionsLibrary-Targets-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDTransitioning-VCTransitionsLibrary-Targets-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MDTransitioning-VCTransitionsLibrary-Targets-Demo/Pods-MDTransitioning-VCTransitionsLibrary-Targets-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		78CA8B2ECFFE3D355B914826 /* Pods-MDTransitioning-VCTransitionsLibrary-Targets-MDTransitioning-VCTransitionsLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDTransitioning-VCTransitionsLibrary-Targets-MDTransitioning-VCTransitionsLibrary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDTransitioning-VCTransitionsLibrary-Targets-MDTransitioning-VCTransitionsLibrary/Pods-MDTransitioning-VCTransitionsLibrary-Targets-MDTransitioning-VCTransitionsLibrary.debug.xcconfig"; sourceTree = "<group>"; };
 		A74BE86A019CC8F200D3CCE6 /* Pods-MDTransitioning-VCTransitionsLibrary-Targets-MDTransitioning-VCTransitionsLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDTransitioning-VCTransitionsLibrary-Targets-MDTransitioning-VCTransitionsLibrary.release.xcconfig"; path = "Pods/Target Support Files/Pods-MDTransitioning-VCTransitionsLibrary-Targets-MDTransitioning-VCTransitionsLibrary/Pods-MDTransitioning-VCTransitionsLibrary-Targets-MDTransitioning-VCTransitionsLibrary.release.xcconfig"; sourceTree = "<group>"; };
+		EDF632EBF4CFE3280A440EDB /* Pods-MDTransitioning-VCTransitionsLibrary-Targets-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDTransitioning-VCTransitionsLibrary-Targets-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDTransitioning-VCTransitionsLibrary-Targets-Demo/Pods-MDTransitioning-VCTransitionsLibrary-Targets-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		FB46B5697DC9D5737B86E462 /* Pods_MDTransitioning_VCTransitionsLibrary_Targets_MDTransitioning_VCTransitionsLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDTransitioning_VCTransitionsLibrary_Targets_MDTransitioning_VCTransitionsLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		080F52731F926C79009F2F19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080F52AE1F926F31009F2F19 /* MDTransitioning_VCTransitionsLibrary.framework in Frameworks */,
+				32CE10ADB6C3EF80350D9A71 /* Pods_MDTransitioning_VCTransitionsLibrary_Targets_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0899D55D1F77A4C500A4A395 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -36,10 +80,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		080F52771F926C7B009F2F19 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				080F52781F926C7B009F2F19 /* AppDelegate.h */,
+				080F52791F926C7C009F2F19 /* AppDelegate.m */,
+				080F52AB1F926DFA009F2F19 /* RootTableViewController.h */,
+				080F52AC1F926DFA009F2F19 /* RootTableViewController.m */,
+				080F52B31F9277BE009F2F19 /* PushAnimationViewController.h */,
+				080F52B41F9277BE009F2F19 /* PushAnimationViewController.m */,
+				080F52B61F927D1B009F2F19 /* PushAnimationWithInteractionViewController.h */,
+				080F52B71F927D1B009F2F19 /* PushAnimationWithInteractionViewController.m */,
+				080F52B91F927FB7009F2F19 /* PresentAnimationViewController.h */,
+				080F52BA1F927FB7009F2F19 /* PresentAnimationViewController.m */,
+				080F52BC1F927FC8009F2F19 /* PresentAnimationWithInteractionViewController.h */,
+				080F52BD1F927FC8009F2F19 /* PresentAnimationWithInteractionViewController.m */,
+				080F52841F926C7E009F2F19 /* Assets.xcassets */,
+				080F52861F926C7F009F2F19 /* LaunchScreen.storyboard */,
+				080F52891F926C80009F2F19 /* Info.plist */,
+				080F528A1F926C80009F2F19 /* main.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		0899D5571F77A4C500A4A395 = {
 			isa = PBXGroup;
 			children = (
 				0899D5631F77A4C500A4A395 /* MDTransitioning-VCTransitionsLibrary */,
+				080F52771F926C7B009F2F19 /* Demo */,
 				0899D5621F77A4C500A4A395 /* Products */,
 				1A1295AE34890F2D1E1DBA74 /* Pods */,
 				43C25C5F8F2089BF8F728A3A /* Frameworks */,
@@ -50,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				0899D5611F77A4C500A4A395 /* MDTransitioning_VCTransitionsLibrary.framework */,
+				080F52761F926C79009F2F19 /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,10 +126,12 @@
 		0899D5631F77A4C500A4A395 /* MDTransitioning-VCTransitionsLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				0899D5641F77A4C500A4A395 /* MDTransitioning-VCTransitionsLibrary.h */,
+				0899D5641F77A4C500A4A395 /* MDTransitioning+VCTransitionsLibrary.h */,
 				0899D5651F77A4C500A4A395 /* Info.plist */,
 				08413C7A1F78022800CE1717 /* CEReversibleAnimationController+MDTransitioning.h */,
 				08413C7B1F78022800CE1717 /* CEReversibleAnimationController+MDTransitioning.m */,
+				080F52AF1F92718B009F2F19 /* CEBaseInteractionController+MDTransitioning.h */,
+				080F52B01F92718B009F2F19 /* CEBaseInteractionController+MDTransitioning.m */,
 			);
 			path = "MDTransitioning-VCTransitionsLibrary";
 			sourceTree = "<group>";
@@ -70,6 +141,8 @@
 			children = (
 				78CA8B2ECFFE3D355B914826 /* Pods-MDTransitioning-VCTransitionsLibrary-Targets-MDTransitioning-VCTransitionsLibrary.debug.xcconfig */,
 				A74BE86A019CC8F200D3CCE6 /* Pods-MDTransitioning-VCTransitionsLibrary-Targets-MDTransitioning-VCTransitionsLibrary.release.xcconfig */,
+				EDF632EBF4CFE3280A440EDB /* Pods-MDTransitioning-VCTransitionsLibrary-Targets-Demo.debug.xcconfig */,
+				70BDE525EBD6093483E616D7 /* Pods-MDTransitioning-VCTransitionsLibrary-Targets-Demo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -78,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				FB46B5697DC9D5737B86E462 /* Pods_MDTransitioning_VCTransitionsLibrary_Targets_MDTransitioning_VCTransitionsLibrary.framework */,
+				6ED65336523A4A07F7DD1F68 /* Pods_MDTransitioning_VCTransitionsLibrary_Targets_Demo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -89,14 +163,35 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0899D5661F77A4C500A4A395 /* MDTransitioning-VCTransitionsLibrary.h in Headers */,
+				0899D5661F77A4C500A4A395 /* MDTransitioning+VCTransitionsLibrary.h in Headers */,
 				08413C7C1F78022800CE1717 /* CEReversibleAnimationController+MDTransitioning.h in Headers */,
+				080F52B11F92718B009F2F19 /* CEBaseInteractionController+MDTransitioning.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		080F52751F926C79009F2F19 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080F52A81F926C81009F2F19 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				E5E2BA0E00DE3CF63B63C79F /* [CP] Check Pods Manifest.lock */,
+				080F52721F926C79009F2F19 /* Sources */,
+				080F52731F926C79009F2F19 /* Frameworks */,
+				080F52741F926C79009F2F19 /* Resources */,
+				10F3D349E457F296000BDAC4 /* [CP] Embed Pods Frameworks */,
+				E712B036ABAE6DE84AFA5C51 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = 080F52761F926C79009F2F19 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0899D5601F77A4C500A4A395 /* MDTransitioning-VCTransitionsLibrary */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0899D5691F77A4C500A4A395 /* Build configuration list for PBXNativeTarget "MDTransitioning-VCTransitionsLibrary" */;
@@ -126,6 +221,10 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = markejave;
 				TargetAttributes = {
+					080F52751F926C79009F2F19 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
 					0899D5601F77A4C500A4A395 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
@@ -138,6 +237,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 0899D5571F77A4C500A4A395;
 			productRefGroup = 0899D5621F77A4C500A4A395 /* Products */;
@@ -145,11 +245,21 @@
 			projectRoot = "";
 			targets = (
 				0899D5601F77A4C500A4A395 /* MDTransitioning-VCTransitionsLibrary */,
+				080F52751F926C79009F2F19 /* Demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		080F52741F926C79009F2F19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080F52881F926C7F009F2F19 /* LaunchScreen.storyboard in Resources */,
+				080F52851F926C7E009F2F19 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0899D55F1F77A4C500A4A395 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -160,6 +270,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		10F3D349E457F296000BDAC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MDTransitioning-VCTransitionsLibrary-Targets-Demo/Pods-MDTransitioning-VCTransitionsLibrary-Targets-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6A8F24D60BAB8E46CE83CA97 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -190,20 +315,104 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		E5E2BA0E00DE3CF63B63C79F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E712B036ABAE6DE84AFA5C51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MDTransitioning-VCTransitionsLibrary-Targets-Demo/Pods-MDTransitioning-VCTransitionsLibrary-Targets-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		080F52721F926C79009F2F19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080F52AD1F926DFA009F2F19 /* RootTableViewController.m in Sources */,
+				080F52B51F9277BE009F2F19 /* PushAnimationViewController.m in Sources */,
+				080F52B81F927D1B009F2F19 /* PushAnimationWithInteractionViewController.m in Sources */,
+				080F52BB1F927FB7009F2F19 /* PresentAnimationViewController.m in Sources */,
+				080F527A1F926C7C009F2F19 /* AppDelegate.m in Sources */,
+				080F52BE1F927FC8009F2F19 /* PresentAnimationWithInteractionViewController.m in Sources */,
+				080F528B1F926C80009F2F19 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0899D55C1F77A4C500A4A395 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				080F52B21F92718B009F2F19 /* CEBaseInteractionController+MDTransitioning.m in Sources */,
 				08413C7D1F78022800CE1717 /* CEReversibleAnimationController+MDTransitioning.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		080F52861F926C7F009F2F19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				080F52871F926C7F009F2F19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		080F52A21F926C81009F2F19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF632EBF4CFE3280A440EDB /* Pods-MDTransitioning-VCTransitionsLibrary-Targets-Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.markejave.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		080F52A31F926C81009F2F19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70BDE525EBD6093483E616D7 /* Pods-MDTransitioning-VCTransitionsLibrary-Targets-Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.markejave.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		0899D5671F77A4C500A4A395 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -357,6 +566,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		080F52A81F926C81009F2F19 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080F52A21F926C81009F2F19 /* Debug */,
+				080F52A31F926C81009F2F19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0899D55B1F77A4C500A4A395 /* Build configuration list for PBXProject "MDTransitioning-VCTransitionsLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

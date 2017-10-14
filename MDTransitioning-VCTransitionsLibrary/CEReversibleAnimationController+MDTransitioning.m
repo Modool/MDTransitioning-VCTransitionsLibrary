@@ -55,18 +55,30 @@
     objc_setAssociatedObject(self, @selector(presentionAnimatedOperation), @(presentionAnimatedOperation), OBJC_ASSOCIATION_COPY_NONATOMIC);
 }
 
-- (instancetype)initWithOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromViewController toViewController:(UIViewController *)toViewController;{
-    if (self = [super init]) {
-        self.reverse = operation == UINavigationControllerOperationPop;
+- (instancetype)initWithNavigationControllerOperation:(UINavigationControllerOperation)navigationControllerOperation fromViewController:(UIViewController *)fromViewController toViewController:(UIViewController *)toViewController;{
+    self = [super init];
+    if (self) {
+        self.duration = 0.25;
+        self.navigationControllerOperation = navigationControllerOperation;
+        self.fromViewController = fromViewController;
+        self.toViewController = toViewController;
+        self.reverse = navigationControllerOperation == UINavigationControllerOperationPop;
     }
     return self;
 }
 
-- (instancetype)initWithOperation:(MDPresentionAnimatedOperation)operation fromViewController:(UIViewController *)fromViewController toViewController:(UIViewController *)toViewController;{
-    if (self = [super init]) {
-        self.reverse = operation == MDPresentionAnimatedOperationDismiss;
+- (instancetype)initWithPresentionAnimatedOperation:(MDPresentionAnimatedOperation)presentionAnimatedOperation fromViewController:(UIViewController *)fromViewController toViewController:(UIViewController *)toViewController;{
+    self = [super init];
+    if (self) {
+        NSParameterAssert(presentionAnimatedOperation != MDPresentionAnimatedOperationNone);
+        self.duration = 0.25;
+        self.presentionAnimatedOperation = presentionAnimatedOperation;
+        self.fromViewController = fromViewController;
+        self.toViewController = toViewController;
+        self.reverse = presentionAnimatedOperation == MDPresentionAnimatedOperationDismiss;
     }
     return self;
+    
 }
 
 @end

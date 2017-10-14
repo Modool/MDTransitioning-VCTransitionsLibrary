@@ -1,0 +1,6 @@
+framework module VCTransitionsLibrary {
+  umbrella header "VCTransitionsLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -10,9 +10,6 @@ abstract_target 'MDTransitioning-VCTransitionsLibrary-Targets’ do
     pod 'MDTransitioning', '~> 1.0.0’
     pod 'VCTransitionsLibrary', '~> 1.5.0’
 
-    target 'MDTransitioning-VCTransitionsLibrary' do
-    end
-
     target 'Demo' do
     end
 end

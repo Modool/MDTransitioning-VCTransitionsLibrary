@@ -1,6 +1,0 @@
-framework module Pods_MDTransitioning_VCTransitionsLibrary_Targets_Demo {
-  umbrella header "Pods-MDTransitioning-VCTransitionsLibrary-Targets-Demo-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -31,6 +31,7 @@ platform :ios, '8.0'
 target 'TargetName' do
 pod 'MDTransitioning', '~> 1.0.0'
 pod 'VCTransitionsLibrary', '~> 1.5.0’
+
 pod 'MDTransitioning-VCTransitionsLibrary', '~> 1.0.0'
 end
 
@@ -40,8 +41,9 @@ end
 
 ```
 github "Modool/MDTransitioning" ~> 1.0.0
+github "Modool/VCTransitionsLibrary" ~> 1.5.1
+
 github "Modool/MDTransitioning-VCTransitionsLibrary" ~> 1.0.0
-github "ColinEberhardt/VCTransitionsLibrary" ~> 1.5.0
 ```
 
 * Manual Import

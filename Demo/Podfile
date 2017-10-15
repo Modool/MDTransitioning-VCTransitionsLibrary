@@ -7,8 +7,10 @@ platform :ios, '8.0'
 use_frameworks!
 
 abstract_target 'MDTransitioning-VCTransitionsLibrary-Targets’ do
-    pod 'MDTransitioning', '~> 1.0.0’
-    pod 'VCTransitionsLibrary', '~> 1.5.0’
+    pod 'MDTransitioning', '~> 1.0.0'
+    pod 'VCTransitionsLibrary', '~> 1.5.0'
+
+    pod 'MDTransitioning-VCTransitionsLibrary’, '~> 1.0.0'
 
     target 'Demo' do
     end
